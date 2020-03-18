@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-fluid   text-center col-12">
+        <form class=" text-center  col-5">
+            <div>
+                <label class="m-2" style="color:white;">
+                    <h1><big title="Right Avenue">RA Infotech</big></h1>
+                    <h3>Log In Form</h3>
+                </label>
+            </div>
+            <div>
+                <input type="text" class="alert alert-primary col-12 mt-4" id="email" value="sartrta@gmail.com"
+                    placeholder="Email Id or Phone No">
+                <p id="erro"></p>
+            </div>
+            <!-- <div>
+                <input type="text" class="alert alert-primary col-12" id="ph" value="8538525852" placeholder="Phone No">
+                <p id="tex"></p>
+            </div> -->
+            <div>
+                <input type="password" class="alert alert-primary col-12" id="pass" value="232323"
+                    placeholder="Password">
+                <div class="text-left" style="color:white;"> <input type="checkbox" onclick="myFunction()"> &nbsp;Show
+                    Password <span style="padding-left:85px;"><a href="#">Forgot Password ?</a></span></div>
+                <p id="text"></p>
+
+            </div>
+
+            <!-- <input id="sub" type="button" class="btn btn-primary col-2 m-5 p-2" onclick="formValidation()"
+        style="text-align: center; font-size: 32px;" value="submit"> -->
+            <input id="sub" type="button" class="btn btn-primary col-5 m-4 p-2"
+                style="text-align: center; font-size: 28px;" value="Log In">
+        </form>
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded mr-2" alt="...">
+                <strong class="mr-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    </script>
+    <!-- <script src="jQuery_Basics.js"></script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>

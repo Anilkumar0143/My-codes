@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "email": "satyatest@gmail.com",
+      "password": "satya"
+    },
+    {
+      "id": 2,
+      "email": "satyatest@gmail.com",
+      "password": "satya"
+    },
+    {
+      "id": 3,
+      "email": "satyatest@gmail.com",
+      "password": "satya"
+    },
+    {
+      "id": 4,
+      "Email": "sartrta@gmail.com",
+      "Password": "232323"
+    },
+    {
+      "id": 5,
+      "Email": "sartrta@gmail.com",
+      "Password": "232323"
+    },
+    {
+      "id": 6,
+      "Email": "sartrta@gmail.com",
+      "Password": "232323"
+    },
+    {
+      "id": 7,
+      "Email": "sartrta@gmail.com",
+      "Password": "232323"
+    },
+    {
+      "id": 8,
+      "Email": "sartrta@gmail.com",
+      "Password": "232323"
+    },
+    {
+      "id": 9,
+      "Email": "anilkumar938163@mail.com",
+      "Password": "Anil#123"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
